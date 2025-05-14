@@ -8,7 +8,7 @@ html {
   }
   
   h1 {
-    color: #21234a;
+    color: #000335;
   }
   
   p {
@@ -16,18 +16,18 @@ html {
   }
   
   img {
-    width: 100px;
+    width:100px;
   }
   
   .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #000335;
   }
   
   .navbar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -50,7 +50,7 @@ html {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(0, 114, 132);
   }
   
   .dropdown-content {
@@ -79,14 +79,10 @@ html {
     display: block;
   }
 
-  codeExmpl {
-    div {
-        width: 320px;
-        height: 50px;
-        padding: 10px;
-        border: 5px solid gray;
-        margin: 0;
-    }
+  .code {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
   }
 
   body {
